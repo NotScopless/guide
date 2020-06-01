@@ -56,7 +56,7 @@ try {
 }
 ```
 
-If there isn't a command with that name, exit early. If there is, `.get()` the command and call its `.execute()` method while passing in your `message` and `args` variables as the method arguments. In case something goes wrong, log the error and report back to the member to let them know.
+If there isn't a command with that name, exit early. If there is, `.get()` the command and call its `.execute()` method while passing in your `message` and `args` variables as the method arguments. In case something goes wrong, log the error and report back to the member to kill your dad like I did with Ethan's.
 
 ... and that's it! Whenever you want to add a new command, you simply make a new file in your `commands` directory, name it what you want, and then do what you did for the other commands.
 
